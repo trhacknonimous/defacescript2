@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            
+            margin: 0%;
+            padding: 0%;
+            box-sizing: border-box;
+        }
+        body{
+            background-color: black;
+        }
+        .aud{
+            visibility: hidden;
+        }
+        .logo{
+            width: 100%;
+            padding-top:80px ;
+        }
+        .glow{
+            background-image: linear-gradient(rgb(239, 255, 17), rgb(255, 0, 234), blue);
+            filter: blur(80px);
+            width: 200px;
+            height: 200px;
+            margin:auto ;
+            border-radius: 100px;
+            position: absolute;
+            left: 50%;
+            transform: translate(-50%);
+            animation: rot 6s ;  ;
+        }
+        .ima{
+            position: relative;
+            width: 200px;
+            height: 200px;
+            background-image: url(https://i.ibb.co/t8x0LRc/Zed-cracker-1.png);
+            background-position: center;
+            background-size: cover;
+            border: 2px solid white;
+            border-radius: 100px;
+            margin: auto;
+            animation: rotate 10s linear infinite;
+        }
+        
+@keyframes rotate{
+    to{
+        transform: rotate(360deg);
+    }
+}
+
+    @keyframes rot {
+        to{
+                    
+        }
+        
+    }
+        div.btn{
+            padding-top: 30px;
+            text-align: center;
+        }
+        div.btn a{
+            color: white;
+            text-decoration: none;
+            border: 1px solid white;
+            padding: 8px 20px;
+            border-radius: 50px;
+            transition: 0.2s;   
+        }
+        div.btn a:hover{
+            background-color: white;
+            color: black;
+        }
+        h1{
+        
+            padding-top:30px ;
+            color: white;
+            font-size: 25px;
+        }
+        div.btns{
+            display: flex;
+        }
+        div.play{
+            margin: auto;
+            margin-top: 30px;   
+        }
+        div.play img{
+            width: 40px;
+            margin: 4px;
+            cursor: pointer;
+        }
+        div.play img:hover{
+            filter: invert(0.8);
+        }
+        div.comment{
+            margin-top: 15px;
+            margin-left: 15%;
+            margin-right: 15%;
+        }
+        div.comment p{
+            color: white;
+            text-align: center;
+
+        }
+    
+    </style>
+</head>
+<body>
+    <div class="logo">
+        <div class="glow">
+            
+        </div>
+        <div class="ima"></div>
+        <div class="btns">
+            <div class="play stop">
+                <img onclick="aud_play()"  src="https://i.ibb.co/5Yz8DqK/Group-1.png" alt="">
+                <img onclick="aud_pause()"  src="https://i.ibb.co/ykKDK6s/Group-2.png" alt="">
+            </div>
+        </div>
+        <div class="btn">
+        <a href="https://t.me/zed_cracker_1">Join Us</a>
+        <h1>Hacked by Zed Coder</h1> 
+        <div class="comment">      
+<!-- comment -->
+
+
+
+<p>
+! Your site is not protected !
+</p>
+
+
+
+<!-- comment -->
+
+<div class="snow" />
+<style>
+.editor-stage .snow {
+  height:50px;
+  background: #fff;
+}
+.snow{
+  position:fixed;
+  pointer-events:none;
+  top:0;
+  left:0;
+  right:0;
+  bottom:0;
+  height:100vh;
+  background: none;
+  background-image: url('https://s3-eu-west-1.amazonaws.com/static-ressources/s1.png'), url('https://s3-eu-west-1.amazonaws.com/static-ressources/s2.png'), url('https://s3-eu-west-1.amazonaws.com/static-ressources/s3.png');
+  z-index:100;
+  -webkit-animation: snow 20s linear infinite;
+  -moz-animation: snow 20s linear infinite;
+  -ms-animation: snow 20s linear infinite;
+  animation: snow 10s linear infinite;
+}
+@keyframes snow {
+  0% {background-position: 0px 0px, 0px 0px, 0px 0px;}
+  50% {background-position: 500px 500px, 100px 200px, -100px 150px;}
+  100% {background-position: 500px 1000px, 200px 400px, -100px 300px;}
+}
+@-moz-keyframes snow {
+  0% {background-position: 0px 0px, 0px 0px, 0px 0px;}
+  50% {background-position: 500px 500px, 100px 200px, -100px 150px;}
+  100% {background-position: 400px 1000px, 200px 400px, 100px 300px;}
+}
+@-webkit-keyframes snow {
+  0% {background-position: 0px 0px, 0px 0px, 0px 0px;}
+  50% {background-position: 500px 500px, 100px 200px, -100px 150px;}
+  100% {background-position: 500px 1000px, 200px 400px, -100px 300px;}
+}
+@-ms-keyframes snow {
+  0% {background-position: 0px 0px, 0px 0px, 0px 0px;}
+  50% {background-position: 500px 500px, 100px 200px, -100px 150px;}
+  100% {background-position: 500px 1000px, 200px 400px, -100px 300px;}
+}
+</style>
+<p>
+</div>
+</div>
+</div>
+<audio id="myTune" src="https://www.mboxdrive.com/_The_Hacker__--_Heartbeat_Soundtrack(256k).mp3"></audio>
+<script>
+
+ /*function check(e)
+    {
+    alert(e.keyCode);
+    }*/
+    document.onkeydown = function(e) {
+            if (e.ctrlKey && (e.keyCode === 67 || e.keyCode === 86 || e.keyCode === 85 || e.keyCode === 117)) {//Alt+c, Alt+v will also be disabled sadly.
+                alert('â€ŒÚ†ÛŒÛ• Ø¨Û•Ø¯ÙˆØ§ÛŒ Ú†ÛŒÛŒØ§ Ø¦Û•Ú¯Û•Ú•ÛŽÛŒ');
+            }
+            return false;
+    };
+
+        
+    document.addEventListener('contextmenu', event => event.preventDefault());
+     
+function aud_play() {
+  var myAudio = document.getElementById("myTune");
+  if (myAudio.paused) {
+    myAudio.play();
+  } 
+}
+function aud_pause(){
+    var myAudio = document.getElementById("myTune");
+    if(myAudio.play) {
+    myAudio.pause();
+  } 
+}
+
+ </script>
+
+    </body>
+</html>
